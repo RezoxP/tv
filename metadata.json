@@ -1,0 +1,6 @@
+{
+  "name": "Globe TV",
+  "description": "A lightweight, lag-free IPTV player for Android TV 2GB hardware supporting HLS streaming.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
