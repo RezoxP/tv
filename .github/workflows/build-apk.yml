@@ -32,7 +32,7 @@ jobs:
         KEYSTORE_PATH: my-upload-key.jks
         STORE_PASSWORD: password
         KEY_PASSWORD: password
-      run: ./gradlew assembleRelease
+      run: ./gradlew assembleRelease --no-daemon
 
     - name: Upload APK
       uses: actions/upload-artifact@v4
